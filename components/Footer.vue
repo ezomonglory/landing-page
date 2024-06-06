@@ -1,8 +1,15 @@
 <template>
-  <div class="flex flex-col lg:flex-row items-center justify-between mt-[8rem] mb-[4rem] px-[1.5rem] lg:px-[4rem]">
-    <img src="/logo.svg" class="w-[174px] h-[54px] cursor-pointer mb-[1.5rem] lg:mb-0 " />
-    <div class="flex flex-col lg:flex-row  lg:space-x-[5rem]">
-      <div class="flex flex-col space-y-[2.5rem] lg:space-y-0 lg:flex-row items-center lg:space-x-[2rem]">
+  <div
+    class="flex flex-col lg:flex-row items-center justify-between mt-[8rem] mb-[4rem] px-[1.5rem] lg:px-[4rem]"
+  >
+    <img
+      src="/logo.svg"
+      class="w-[174px] h-[54px] cursor-pointer mb-[1.5rem] lg:mb-0"
+    />
+    <div class="flex flex-col lg:flex-row lg:space-x-[5rem]">
+      <div
+        class="flex flex-col space-y-[2.5rem] lg:space-y-0 lg:flex-row items-center lg:space-x-[2rem]"
+      >
         <h1
           class="text-[#4F5059] text-[1.125rem] tracking-[-0.5px] leading-[1.25rem] cursor-pointer"
         >
@@ -29,16 +36,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      title: "My Component",
-      content: "This is my component content.",
-    };
-  },
-
-  components: {},
-};
+export default {};
 </script>
 
 <style scoped>

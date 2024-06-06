@@ -21,8 +21,4 @@ h2 {
   font-weight: 400;
 }
 
-p {
-  font-family: Inter;
-  font-weight: 400;
-}
 </style>

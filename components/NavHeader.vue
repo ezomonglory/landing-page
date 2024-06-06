@@ -30,14 +30,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      title: "My Component",
-      content: "This is my component content.",
-    };
-  },
-
+export default { 
   components: {},
 };
 </script>

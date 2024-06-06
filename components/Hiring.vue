@@ -1,5 +1,5 @@
 <template>
-  <div class="px-[1.5rem] lg:px-[4rem] mt-[6.5rem] lg:mt-[11.3rem]">
+  <div class="px-[2rem] lg:px-[4rem] mt-[6.5rem] lg:mt-[11.3rem]">
     <div
       class="bg-[#4C1506] flex flex-col-reverse lg:flex-row p-[1.5rem] items-center justify-between rounded-[15px]"
     >
@@ -15,7 +15,7 @@
           suggestions about why you’ll be a great addition to our team.
         </h2>
       </div>
-      <div class="lg:w-[45%]">
+      <div class="lg:w-[45%] flex justify-end  ">
         <img src="/hiring.png" />
       </div>
     </div>
@@ -29,7 +29,7 @@
         />
       </div>
 
-      <div class="mt-[2.5rem] flex flex-col md:flex-row md:space-x-[6.25rem]">
+      <div class="mt-[2.5rem] flex flex-col lg:flex-row lg:space-x-[6.25rem]">
         <div>
           <h3 class=" text-[1.25rem] lg:text-[1.5rem] leading-[2.2rem] text-[#4C1506] mb-[2rem]">
             Is your feedback a...

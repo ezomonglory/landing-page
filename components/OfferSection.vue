@@ -1,5 +1,5 @@
 <template>
-  <div class=" px-[1.5rem] lg:px-[4rem] mt-[6rem]">
+  <div class=" px-[2rem] lg:px-[4rem] mt-[6rem]">
     <div class="flex flex-col lg:flex-row lg:items-center justify-between mb-[2rem]">
       <div class="">
         <h1
@@ -8,13 +8,13 @@
           What We Offer
         </h1>
         <h2
-          class="text-[#4C1506] text-[2rem] text-left md:text-[3rem] leading-[2rem] md:leading-[3.2rem] tracking-[-0.48px] relative"
+          class="text-[#4C1506] text-[2rem] text-left md:text-[3rem] leading-[2rem] md:leading-[3.2rem] tracking-[-0.48px] relative w-fit "
         >
           To Our Clients
 
           <!-- this is the yellowish vector below the our client txext -->
           <div
-            class="bg-[#FDC22161] h-[7px] w-[145px] md:w-[200px] lg:w-[215px] absolute md:right-[580px] md:top-[35px]  top-[25px] lg:top-[35px] right-[167px] lg:right-[24px] z-[-5]"
+            class="bg-[#FDC22161] h-[7px] w-[125px] md:w-[200px] lg:w-[215px] absolute md:right-[0px] md:top-[35px]  top-[25px] lg:top-[35px] right-[0px] lg:right-[0px] z-[-5]"
           ></div>
         </h2>
       </div>
