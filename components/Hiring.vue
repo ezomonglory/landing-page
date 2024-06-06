@@ -3,19 +3,27 @@
     <div
       class="bg-[#4C1506] flex flex-col-reverse lg:flex-row p-[1.5rem] items-center justify-between rounded-[15px]"
     >
-      <div class="lg:w-[47%]  mt-[3rem] lg:mt-0">
+      <div class="lg:w-[47%] mt-[3rem] lg:mt-0">
         <h1
-          class="text-[1.5rem] lg:text-[2.5rem] text-white tracking-[0.1rem] leading-[1.7rem] lg:leading-[3rem] mb-[1.25rem]"
+          class="text-[1.5rem] lg:text-[2.5rem] text-white racking-[0.1rem] leading-[1.7rem] lg:leading-[3rem] mb-[1.25rem]"
         >
           We are currently not hiring but are always looking for the best
           talent!
         </h1>
-        <h2 class="text-[1.125rem] leading-[1.75rem] text-white">
+        <h2
+          class="text-[1.125rem] leading-[1.75rem] text-white hidden lg:block"
+        >
           We refuse to miss out on the best of the best. We’re open to
           suggestions about why you’ll be a great addition to our team.
         </h2>
+
+        <h2 class="text-[1.125rem] leading-[1.75rem] text-white lg:hidden">
+          We are currently not hiring but we refuse to miss out on the best of
+          the best. We’re open to suggestions about why you’ll be a great
+          addition to our team.
+        </h2>
       </div>
-      <div class="lg:w-[45%] flex justify-end  ">
+      <div class="lg:w-[45%] flex justify-end">
         <img src="/hiring.png" />
       </div>
     </div>
@@ -29,9 +37,11 @@
         />
       </div>
 
-      <div class="mt-[2.5rem] flex flex-col lg:flex-row lg:space-x-[6.25rem]">
+      <div class="mt-[2.625rem] flex flex-col lg:flex-row lg:space-x-[6.25rem]">
         <div>
-          <h3 class=" text-[1.25rem] lg:text-[1.5rem] leading-[2.2rem] text-[#4C1506] mb-[2rem]">
+          <h3
+            class="text-[1.25rem] lg:text-[1.5rem] leading-[2.2rem] text-[#4C1506] mb-[2rem]"
+          >
             Is your feedback a...
           </h3>
           <div class="flex flex-col space-y-[1.5rem]">
@@ -44,7 +54,9 @@
         </div>
 
         <div>
-          <h3 class=" text-[1.25rem] lg:text-[1.5rem] mt-[2.5rem] lg:mt-0 leading-[2.2rem] text-[#4C1506] mb-[2rem]">
+          <h3
+            class="text-[1.25rem] lg:text-[1.5rem] mt-[2.625rem] lg:mt-0 leading-[2.2rem] text-[#4C1506] mb-[2rem]"
+          >
             Is your feedback based on a position for…
           </h3>
           <div class="flex flex-col space-y-[1.5rem]">
@@ -58,7 +70,9 @@
       </div>
 
       <div class="mt-[2.5rem]">
-        <h3 class=" text-[1.125rem] lg:text-[1.5rem] leading-[1.5rem] lg:leading-[2.2rem] text-[#4C1506] mb-[1rem] lg:mb-[2rem]">
+        <h3
+          class="text-[1.125rem] lg:text-[1.5rem] leading-[1.5rem] lg:leading-[2.2rem] text-[#4C1506] mb-[1rem] lg:mb-[2rem]"
+        >
           Show us what you got. Tell us why you'll be a great addition to our
           team.
         </h3>
@@ -71,7 +85,7 @@
       </div>
 
       <div
-        class="rounded-[4px] hidden  bg-[#F59E0B] w-[200px] h-[60px] lg:flex items-center justify-center mt-[3.75rem]"
+        class="rounded-[4px] hidden bg-[#F59E0B] w-[200px] h-[60px] lg:flex items-center justify-center mt-[3.75rem]"
       >
         <p class=".btn text-white text-[1.25rem] leading-[1.5rem]">Send</p>
       </div>
@@ -104,13 +118,6 @@ export default {
 h1 {
   font-family: Inter;
   font-weight: 900;
-}
-
-@media (min-width: 1024px) {
-  h1 {
-    font-family: Inter;
-    font-weight: 900;
-  }
 }
 
 h2 {

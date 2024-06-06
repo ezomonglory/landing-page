@@ -11,20 +11,20 @@
         class="flex flex-col space-y-[2.5rem] lg:space-y-0 lg:flex-row items-center lg:space-x-[2rem]"
       >
         <h1
-          class="text-[#4F5059] text-[1.125rem] tracking-[-0.5px] leading-[1.25rem] cursor-pointer"
+          class="text-[#4F5059] text-[1.125rem] tracking-[-0.5px] leading-[1.75rem] cursor-pointer"
         >
           Support
         </h1>
-        <h2
-          class="leading-[1.4rem] cursor-pointer text-[1.125rem] leading-[1.25rem] cursor-pointer text-[#4F5059]"
+        <h1
+          class="leading-[1.4rem] cursor-pointer text-[1.125rem] leading-[1.75rem] cursor-pointer text-[#4F5059]"
         >
           Privacy Policy
-        </h2>
-        <h2
-          class="leading-[1.4rem] text-[1.125rem] text-[#4F5059] leading-[1.25rem] cursor-pointer"
+        </h1>
+        <h1
+          class="leading-[1.4rem] text-[1.125rem] text-[#4F5059] leading-[1.75rem] cursor-pointer"
         >
           Terms and Conditions
-        </h2>
+        </h1>
       </div>
       <h2
         class="text-[#4F5059] leading-[2.25rem] text-[1rem] tracking-[-0.5px] mt-[2.5rem] lg:mt-0"
@@ -42,11 +42,11 @@ export default {};
 <style scoped>
 h1 {
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h2 {
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 300;
 }
 </style>

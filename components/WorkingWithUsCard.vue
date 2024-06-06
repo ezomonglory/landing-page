@@ -19,7 +19,7 @@
       </h2>
       <div class="flex items-start space-x-[0.825rem] mt-[1rem]">
         <img src="/arrow.svg" />
-        <p class="text-[1.12rem] leading-[1.5rem] text-[#777A99]">
+        <p class=" text-[0.875rem] sm:text-[1.12rem] leading-[1.5rem] text-[#777A99]">
           {{ text }}
         </p>
       </div>

@@ -1,16 +1,23 @@
 <template>
-  <div class=" px-[2rem] lg:px-[7rem] mt-[4.25rem] lg:mt-[8.25rem]">
-    <div class="flex items-center flex-col">
-      <h1 class="text-[#4C1506] text-[2.25rem] lg:text-[3.2rem] leading-[2.5rem] lg:leading-[4.6rem]">
+  <div class="px-[2rem] lg:px-[7rem] mt-[4.25rem] lg:mt-[8.25rem]">
+    <div class="flex sm:items-center flex-col">
+      <h1
+        class="text-[#4C1506] text-[2.25rem] lg:text-[3.2rem] leading-[2.5rem] lg:leading-[4.6rem]"
+      >
         Why you should Consider Working With us
       </h1>
-      <p class="text-[1.12rem] text-[#5E6282] leading-[1.3rem] mt-[1rem] md:mt-0 ">
-        We’re currently in three african countries and we are constantly
+      <p
+        class="text-[1.12rem] text-[#5E6282] leading-[1.3rem] mt-[1rem] md:mt-0"
+      >
+        We’re currently in three african <br class="sm:hidden" />
+        countries and we are constantly <br class="sm:hidden" />
         expanding.
       </p>
     </div>
 
-    <div class="flex flex-col px-[1.5rem] lg:flex-row items-start justify-between space-y-[5rem] lg:space-y-0 lg:space-x-[2rem] mt-[3.62rem]">
+    <div
+      class="flex flex-col px-[1.5rem] lg:flex-row items-start justify-between space-y-[5rem] lg:space-y-0 lg:space-x-[2rem] mt-[3.62rem]"
+    >
       <WorkingWithUsCard
         v-for="(item, index) in dataArray"
         :key="index"
@@ -62,7 +69,6 @@ h1 {
   font-family: Hind Vadodara;
   font-weight: 700;
 }
-
 
 p {
   font-family: Inter;

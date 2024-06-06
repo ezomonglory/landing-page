@@ -52,7 +52,7 @@
         </a>
       </div>
     </div>
-    <div class="mt-[5rem] lg:mt-0 flex w-full xl:w-[50%]  justify-end">
+    <div class="mt-[6rem] lg:mt-0 flex w-full xl:w-[50%]  justify-end">
       <img src="/heroImage.png" class="w-[80%] lg:w-full" />
     </div>
   </div>
