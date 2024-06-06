@@ -4,7 +4,7 @@
       <h1
         class="text-[#4C1506] text-[2.25rem] lg:text-[3.2rem] leading-[2.5rem] lg:leading-[4.6rem]"
       >
-        Why you should Consider Working With us
+        Why you should Consider Working <br class="sm:hidden" /> With us
       </h1>
       <p
         class="text-[1.12rem] text-[#5E6282] leading-[1.3rem] mt-[1rem] md:mt-0"
