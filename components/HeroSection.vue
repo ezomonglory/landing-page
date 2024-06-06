@@ -25,14 +25,15 @@
         <h2
           class="text-[2.25rem] lg:text-[3.5rem] xl:text-[4.06rem] leading-[2.25rem] lg:leading-[4rem] tracking-[0.01px] lg:tracking-[0.16rem] text-[#4C1506] relative"
         >
+          in Africa
+          <!-- This is the yellowish rectangle below the "in Africa" text -->
           <div
             class="bg-[#FDC22161] h-[15px] w-[125px] lg:w-[240px] absolute top-[25px] lg:top-[40px] left-[3px] z-[-5]"
           ></div>
-          in Africa
         </h2>
 
         <p
-          class="text-[#331B3BA8] text-[1.06rem] leading-[1.5rem] md:leading-[1.6rem] ltracking-[0.5px] g:tracking-[0.34px] mt-[1.75rem] md:mt-[2.5rem] lg:w-[80%] "
+          class="text-[#331B3BA8] text-[1.06rem] leading-[1.5rem] md:leading-[1.6rem] ltracking-[0.5px] g:tracking-[0.34px] mt-[1.75rem] md:mt-[2.5rem] lg:w-[80%]"
         >
           We are bridging the gap by connecting researchers to millions of
           Africans eligible for these studies. Through a direct-to-patient
@@ -52,7 +53,7 @@
         </a>
       </div>
     </div>
-    <div class="mt-[6rem] lg:mt-0 flex w-full xl:w-[50%]  justify-end">
+    <div class="mt-[6rem] lg:mt-0 flex w-full xl:w-[50%] justify-end">
       <img src="/heroImage.png" class="w-[80%] lg:w-full" />
     </div>
   </div>

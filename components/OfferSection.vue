@@ -12,7 +12,7 @@
         >
           To Our Clients
 
-          <!-- this is the yellowish vector below the our client txext -->
+          <!-- this is the yellowish vector below the "our client" txext -->
           <div
             class="bg-[#FDC22161] h-[7px] w-[125px] md:w-[200px] lg:w-[215px] absolute md:right-[0px] md:top-[35px]  top-[25px] lg:top-[35px] right-[0px] lg:right-[0px] z-[-5]"
           ></div>

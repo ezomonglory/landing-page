@@ -10,6 +10,8 @@
           We are currently not hiring but are always looking for the best
           talent!
         </h1>
+
+        <!-- This is the text for web view -->
         <h2
           class="text-[1.125rem] leading-[1.75rem] text-white hidden lg:block"
         >
@@ -17,6 +19,7 @@
           suggestions about why you’ll be a great addition to our team.
         </h2>
 
+        <!-- This is the text for mobile view -->
         <h2 class="text-[1.125rem] leading-[1.75rem] text-white lg:hidden">
           We are currently not hiring but we refuse to miss out on the best of
           the best. We’re open to suggestions about why you’ll be a great

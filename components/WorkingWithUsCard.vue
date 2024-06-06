@@ -1,11 +1,13 @@
 <template>
   <div class="flex flex-col relative w-fit">
+    <!-- This is the spring that is displaying in the last card, while the v-if is used to ensure that the spring only shows in the last card -->
     <img
-      v-if="shouldDisplayImage"
+      v-if="shouldDisplaySpringImage"
       src="/spring.png"
       class="absolute right-[-20px] lg:right-[-50px] top-[35%] z-[-10]"
     />
 
+    <!-- This is the background image for each cards -->
     <div
       class="bg-image w-full h-[326px] rounded-t-[24px]"
       :style="{ backgroundImage: 'url(' + imageUrl + ')' }"
@@ -19,7 +21,9 @@
       </h2>
       <div class="flex items-start space-x-[0.825rem] mt-[1rem]">
         <img src="/arrow.svg" />
-        <p class=" text-[0.875rem] sm:text-[1.12rem] leading-[1.5rem] text-[#777A99]">
+        <p
+          class="text-[0.875rem] sm:text-[1.12rem] leading-[1.5rem] text-[#777A99]"
+        >
           {{ text }}
         </p>
       </div>
@@ -36,7 +40,8 @@ export default {
   },
 
   computed: {
-    shouldDisplayImage() {
+    // This is the function that determines when the spring will show, i.e only show for the last card
+    shouldDisplaySpringImage() {
       return this.header === "Make an impact";
     },
   },
