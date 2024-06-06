@@ -1,5 +1,5 @@
 <template>
-  <div class="px-[2rem] lg:px-[4rem] mt-[6.5rem] lg:mt-[11.3rem]">
+  <div class="px-[2rem] lg:px-[4.5rem] mt-[6.5rem] lg:mt-[11.3rem]">
     <div
       class="bg-[#4C1506] flex flex-col-reverse lg:flex-row p-[1.5rem] items-center justify-between rounded-[15px]"
     >
@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <div class="mt-[4rem] lg:px-[2rem]">
+    <div class="mt-[4rem] lg:px-[2.5rem]">
       <div class="flex flex-col space-y-[2.5rem]">
         <InputText
           v-for="(item, index) in inputData"

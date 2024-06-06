@@ -3,7 +3,7 @@
     <div class="flex flex-col lg:flex-row lg:items-center justify-between mb-[2rem]">
       <div class="">
         <h1
-          class="text-[#4C1506] text-[2rem] text-left md:text-[3rem] leading-[2rem] md:leading-[3.2rem] tracking-[-0.48px]"
+          class="text-[#4C1506] text-[2rem] text-left md:text-[3rem] leading-[2rem] md:leading-[3.2rem] tracking-[-0.48px] "
         >
           What We Offer
         </h1>
@@ -50,7 +50,7 @@ export default {};
 <style scoped>
 h1 {
   font-family: Hind Vadodara;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 h2 {

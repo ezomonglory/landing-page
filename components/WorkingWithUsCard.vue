@@ -9,13 +9,11 @@
 
     <!-- This is the background image for each cards -->
     <div
-      class="bg-image w-full h-[326px] rounded-t-[24px]"
+      class="bg-image w-full h-[326px] rounded-t-[24px] box-with-shadow"
       :style="{ backgroundImage: 'url(' + imageUrl + ')' }"
     ></div>
 
-    <div
-      class="p-[1.25rem] bg-[#FFFFFF] shadow-md shadow-gray-100 rounded-b-[24px]"
-    >
+    <div class="p-[1.25rem] bg-[#FFFFFF] rounded-b-[24px]">
       <h2 class="text-[1.25rem] leading-[1.5rem] text-[#5E6282] mt-[1rem]">
         {{ header }}
       </h2>
@@ -62,5 +60,9 @@ h2 {
 p {
   font-family: Inter;
   font-weight: 400;
+}
+
+.box-with-shadow {
+  box-shadow: 0px 102px 15px #78787810; /* Add your desired shadow properties here */
 }
 </style>

@@ -42,10 +42,10 @@
         </p>
 
         <a
-          class="underline flex text-[#D86E23] items-center mt-[1.5rem] md:mt-[1rem] cursor-pointer"
+          class="flex  items-center mt-[1.5rem] md:mt-[1rem] cursor-pointer "
         >
           <p
-            class="text-[#D86E23] text-[1.06rem] leading-[1.6rem] tracking-[0.34px]"
+            class=" text-[#D86E23] text-[1.06rem] leading-[1.6rem] tracking-[0.34px] underline underline-offset-4 "
           >
             Find out more on our website
           </p>
